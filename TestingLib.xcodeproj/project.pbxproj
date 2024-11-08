@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7F98C18C2CDE17BB00334D82 /* TestingLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98C1892CDE17BB00334D82 /* TestingLibTests.swift */; };
-		7F98C18D2CDE17BB00334D82 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98C1852CDE17BB00334D82 /* Package.swift */; };
 		7F98C18E2CDE17BB00334D82 /* TestingLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98C1862CDE17BB00334D82 /* TestingLib.swift */; };
 		7F98C1A92CDE17E800334D82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98C19F2CDE17E800334D82 /* AppDelegate.swift */; };
 		7F98C1AA2CDE17E800334D82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F98C1A62CDE17E800334D82 /* SceneDelegate.swift */; };
@@ -19,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7F98C1852CDE17BB00334D82 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		7F98C1862CDE17BB00334D82 /* TestingLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingLib.swift; sourceTree = "<group>"; };
 		7F98C1892CDE17BB00334D82 /* TestingLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingLibTests.swift; sourceTree = "<group>"; };
 		7F98C19F2CDE17E800334D82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 			children = (
 				7F98C1A82CDE17E800334D82 /* TestingLib */,
 				7FCEADD62CDE106A0006A3C9 /* Products */,
-				7F98C1852CDE17BB00334D82 /* Package.swift */,
 				7F98C1882CDE17BB00334D82 /* Sources */,
 				7F98C18B2CDE17BB00334D82 /* Tests */,
 			);
@@ -186,7 +183,6 @@
 				7F98C1A92CDE17E800334D82 /* AppDelegate.swift in Sources */,
 				7F98C1AA2CDE17E800334D82 /* SceneDelegate.swift in Sources */,
 				7F98C1AB2CDE17E800334D82 /* ViewController.swift in Sources */,
-				7F98C18D2CDE17BB00334D82 /* Package.swift in Sources */,
 				7F98C18E2CDE17BB00334D82 /* TestingLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
