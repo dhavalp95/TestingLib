@@ -6,6 +6,7 @@ import UIKit
 class TestingLib: UIView {
     override func awakeFromNib() {
         super.awakeFromNib()
-       print("This is a testing library")
+        backgroundColor = .cyan
+        layer.cornerRadius = 20
     }
 }
