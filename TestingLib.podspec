@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TestingLib"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of TestingLib."
+  spec.summary      = "This is the library for the testing purpose of spm and cocoapods together"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -66,6 +66,7 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
    spec.platform     = :ios, "9.0"
+   spec.swift_versions = ['5.0']
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
