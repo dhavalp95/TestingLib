@@ -6,6 +6,6 @@ import UIKit
 class TestingLib: UIView {
     override func awakeFromNib() {
         super.awakeFromNib()
-        backgroundColor = .blue
+       print("This is a testing library")
     }
 }
