@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TestingLib"
   spec.version      = "0.0.1"
-  spec.summary      = "This is the library for the testing purpose of spm and cocoapods together"
+  spec.summary      = "This is purpose of spm and cocoapods together"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  'This is only for testing purpose'
+  'This is only for testing purpose for check the how to publis cocoapods and spm on single project'
                    DESC
 
   spec.homepage     = "https://github.com/dhavalp95/TestingLib"
