@@ -3,7 +3,7 @@
 
 import UIKit
 
-class TestingLib: UIView {
+public class TestingLib: UIView {
     override func awakeFromNib() {
         super.awakeFromNib()
         backgroundColor = .cyan
