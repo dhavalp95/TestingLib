@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "TestingLib"
+  spec.name         = "SevenITestingLib"
   spec.version      = "0.0.1"
   spec.summary      = "This is purpose of spm and cocoapods together"
 
