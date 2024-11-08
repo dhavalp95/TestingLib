@@ -23,7 +23,7 @@ public class ColorChangingView: UIView {
         isUserInteractionEnabled = true
     }
 
-    public func setColorOnTap(to color: UIColor) {
+    public func setColorOnTap(to color: UIColor = .red) {
         colorToChangeTo = color
     }
 
