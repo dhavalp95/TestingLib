@@ -28,8 +28,18 @@ public class ColorChangingView: UIView {
     }
 
     @objc private func handleTap(_ sender: UITapGestureRecognizer) {
-        if let color = colorToChangeTo {
-            self.backgroundColor = color
-        }
+        self.backgroundColor = UIColor.random
+        
+    }
+}
+
+extension UIColor {
+    static func random() -> UIColor {
+        return UIColor(
+           red:   .random(),
+           green: .random(),
+           blue:  .random(),
+           alpha: 1.0
+        )
     }
 }
