@@ -21,6 +21,7 @@ public class ColorChangingView: UIView {
         tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
         addGestureRecognizer(tapGestureRecognizer)
         isUserInteractionEnabled = true
+        backgroundColor = UIColor.random
     }
 
     public func setColorOnTap(to color: UIColor = .red) {
